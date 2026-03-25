@@ -15,7 +15,7 @@ jobs:
     steps: 
       - name: echo a string
         run: echo "Hello World"
-      - name: multiline commands
+      - name: verion check
         run: |
           node -v
           npm -v 
